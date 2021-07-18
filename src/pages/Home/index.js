@@ -22,7 +22,7 @@ import { useHistory } from 'react-router-dom';
 
 import {
   Jumbotron, Container, Row, Col, Navbar, Nav, NavItem, NavLink,
-  Card, CardText, CardBody, CardTitle, CardSubtitle, Button
+  Card, CardText, CardBody, CardTitle, CardSubtitle
 } from 'reactstrap';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -30,7 +30,6 @@ import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function App(props) {
   const [cadastro, setCadastro] = useState(false);
-  const history = useHistory();
   const [usuario, setUsuario] = useState('');
   const [erro, setErro] = useState(false);
 
@@ -50,7 +49,6 @@ function App(props) {
       })
       .catch(err => {
         setErro(true);
-
       });
   }
 
