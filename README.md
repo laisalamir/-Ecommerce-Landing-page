@@ -1,2 +1,2 @@
-# GamaAcademy
-Este repositorio foi criado para registrar todas as atividades e tarefas realizadas no âmbito do Programa de treinamento Hiring Coders
+Desafio #1: Ecommerce - Como colocar uma loja online? Site Oficial / Landing page
+**Criar um sistema de e-commerce para cadastro de email na landing page para recebimento de novidades e promoções.
