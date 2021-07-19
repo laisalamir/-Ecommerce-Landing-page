@@ -91,7 +91,7 @@ export const Footer = styled.div`
     background-color:#000;
     text-align: center;
     padding: 3px;
-    margin-top: 5px;
+    margin-top: 30px;
     color: #fff;
 
 
@@ -121,20 +121,16 @@ export const Paragrafo2 = styled.p `
 
 `;
 
-export const Input = styled.input `
-    border: 1px solid #ddd;
+export const Form = styled.form`
+   
     height: 2rem;
-    padding: 0 .7rem;
-    border-radius: 0%.25rem 0 0 .25rem;
+    padding: 10px; 
+    margin-bottom: 85px ;
 
-    &:focus,
-    &::active {
-        outline: none;
-        box-shadow: none;
-    }
 `;
 
 export const Button = styled.button `
+    margin-top: 10px;
     margin-left: 10px;
     height: 2.5rem;
     border: 1px  solid #000;
@@ -152,11 +148,22 @@ export const Button = styled.button `
 
 
 
+export const Link = styled.a`
+   
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: contents;
+    column-count: 3;
+    
+    
+
+`;
+
 export const ErrorMsg = styled.span`
     display: block;
     font-size: 0%.65rem;
     color: red;
     font-weight:  600;
     margin-top: 1rem;
-
 `;
